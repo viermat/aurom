@@ -1,0 +1,10 @@
+[package]
+name = "aurom"
+description = "A command-line tool for Chrome browser manipulation that requires user confirmation."
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.23", features = ["derive", "cargo"] }
+headless_chrome = "1.0.15"
+serde_json = "1.0.133"
